@@ -1,11 +1,11 @@
  
-CONTRIBUTORS = [] # Conflicts generator 1
+CONTRIBUTORS = [Lilia] # Conflicts generator 1
  
 def add(a, b):
     pass
  
 def subtract(a, b):
-    pass
+    return a - b
  
 def multiply(a, b):
     pass
