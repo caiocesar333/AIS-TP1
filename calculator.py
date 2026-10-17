@@ -1,5 +1,5 @@
  
-CONTRIBUTORS = [] # Conflicts generator 1
+CONTRIBUTORS = ["Bharat"] # Conflicts generator 1
  
 def add(a, b):
     pass
@@ -11,9 +11,10 @@ def multiply(a, b):
     pass
  
 def divide(a, b):
-    pass
+    if b == 0:
+        return "Cannot divide by zero"
+    return a / b
  
 if __name__ == "__main__":
     print(f"Welcome to the Group Calculator!, written by {CONTRIBUTORS}")
-    print(multiply(2,2)) # Conflicts generator 2
- 
+    print(divide(10,2)) # Conflicts generator 2
