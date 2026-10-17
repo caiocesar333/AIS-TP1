@@ -4,13 +4,13 @@
 Create a file named `calculator.py` with the following skeleton code:
 ```python
  
-CONTRIBUTORS = [] # Conflicts generator 1
+CONTRIBUTORS = [Lilia] # Conflicts generator 1
  
 def add(a, b):
     pass
  
 def subtract(a, b):
-    pass
+    return a - b
  
 def multiply(a, b):
     pass
